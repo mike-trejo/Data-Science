@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_397200932ca40bcb3c454420101a1dd2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_397200932ca40bcb3c454420101a1dd2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_397200932ca40bcb3c454420101a1dd2 = L.map(
+                "map_397200932ca40bcb3c454420101a1dd2",
+                {
+                    center: [29.559684888503615, -95.0830971930759],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_93b56280c6d621a9cf8376e8770dc62e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_93b56280c6d621a9cf8376e8770dc62e.addTo(map_397200932ca40bcb3c454420101a1dd2);
+        
+    
+            var circle_c762180b92830e4b8ede1d74ab2881ed = L.circle(
+                [28.56230197, -80.57735648],
+                {"bubblingMouseEvents": true, "color": "#F7DC6F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F7DC6F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_397200932ca40bcb3c454420101a1dd2);
+        
+    
+        var popup_01b5cf3762873ebcaac23eec7664a330 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb530180cb3eefad08aea8dbc28397cf = $(`<div id="html_eb530180cb3eefad08aea8dbc28397cf" style="width: 100.0%; height: 100.0%;">CCAFS LC-40</div>`)[0];
+                popup_01b5cf3762873ebcaac23eec7664a330.setContent(html_eb530180cb3eefad08aea8dbc28397cf);
+            
+        
+
+        circle_c762180b92830e4b8ede1d74ab2881ed.bindPopup(popup_01b5cf3762873ebcaac23eec7664a330)
+        ;
+
+        
+    
+    
+            var marker_2071b607e399f4af78d7363093ef7eea = L.marker(
+                [28.56230197, -80.57735648],
+                {}
+            ).addTo(map_397200932ca40bcb3c454420101a1dd2);
+        
+    
+            var div_icon_a7e6d53d47566fd770ea210b5681581e = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12; color:#d35400;\"\u003e\u003cb\u003eCCAFS LC-40\u003c/b\u003e\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [20, 20]});
+            marker_2071b607e399f4af78d7363093ef7eea.setIcon(div_icon_a7e6d53d47566fd770ea210b5681581e);
+        
+    
+            var circle_38236b9ddfa5d18c22dc8086a889cd35 = L.circle(
+                [28.56319718, -80.57682003],
+                {"bubblingMouseEvents": true, "color": "#F7DC6F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F7DC6F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_397200932ca40bcb3c454420101a1dd2);
+        
+    
+        var popup_516eb221598a799851f111b58a2025b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e51f504076d0e768eae5d98c29402063 = $(`<div id="html_e51f504076d0e768eae5d98c29402063" style="width: 100.0%; height: 100.0%;">CCAFS SLC-40</div>`)[0];
+                popup_516eb221598a799851f111b58a2025b4.setContent(html_e51f504076d0e768eae5d98c29402063);
+            
+        
+
+        circle_38236b9ddfa5d18c22dc8086a889cd35.bindPopup(popup_516eb221598a799851f111b58a2025b4)
+        ;
+
+        
+    
+    
+            var marker_385e8a5267643dbf7315f999f4155f3c = L.marker(
+                [28.56319718, -80.57682003],
+                {}
+            ).addTo(map_397200932ca40bcb3c454420101a1dd2);
+        
+    
+            var div_icon_90a66e441342a44bca07c0b5afec0326 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12; color:#d35400;\"\u003e\u003cb\u003eCCAFS SLC-40\u003c/b\u003e\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [20, 20]});
+            marker_385e8a5267643dbf7315f999f4155f3c.setIcon(div_icon_90a66e441342a44bca07c0b5afec0326);
+        
+    
+            var circle_10839fb1bb7a8f50ef73f8bf49004b5f = L.circle(
+                [28.57325457, -80.64689529],
+                {"bubblingMouseEvents": true, "color": "#F7DC6F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F7DC6F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_397200932ca40bcb3c454420101a1dd2);
+        
+    
+        var popup_9057f897e624a6c258b00d02e2244208 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_daca711e7de82b15a4da3b175add58b6 = $(`<div id="html_daca711e7de82b15a4da3b175add58b6" style="width: 100.0%; height: 100.0%;">KSC LC-39A</div>`)[0];
+                popup_9057f897e624a6c258b00d02e2244208.setContent(html_daca711e7de82b15a4da3b175add58b6);
+            
+        
+
+        circle_10839fb1bb7a8f50ef73f8bf49004b5f.bindPopup(popup_9057f897e624a6c258b00d02e2244208)
+        ;
+
+        
+    
+    
+            var marker_b285ec3d6dc136b92f32cf4c8e1169e3 = L.marker(
+                [28.57325457, -80.64689529],
+                {}
+            ).addTo(map_397200932ca40bcb3c454420101a1dd2);
+        
+    
+            var div_icon_91017cc886a6ff6b858c37659a2ca130 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12; color:#d35400;\"\u003e\u003cb\u003eKSC LC-39A\u003c/b\u003e\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [20, 20]});
+            marker_b285ec3d6dc136b92f32cf4c8e1169e3.setIcon(div_icon_91017cc886a6ff6b858c37659a2ca130);
+        
+    
+            var circle_b5c3d3af64c1f20b8ed2a4f3294c0567 = L.circle(
+                [34.63283416, -120.6107455],
+                {"bubblingMouseEvents": true, "color": "#F7DC6F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F7DC6F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_397200932ca40bcb3c454420101a1dd2);
+        
+    
+        var popup_5b96d907cf435047d6529d64de479031 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44843c651eec9f4ac523cc1873b9eb0d = $(`<div id="html_44843c651eec9f4ac523cc1873b9eb0d" style="width: 100.0%; height: 100.0%;">VAFB SLC-4E</div>`)[0];
+                popup_5b96d907cf435047d6529d64de479031.setContent(html_44843c651eec9f4ac523cc1873b9eb0d);
+            
+        
+
+        circle_b5c3d3af64c1f20b8ed2a4f3294c0567.bindPopup(popup_5b96d907cf435047d6529d64de479031)
+        ;
+
+        
+    
+    
+            var marker_da0e508da9ef960125f6a7ba7cc21975 = L.marker(
+                [34.63283416, -120.6107455],
+                {}
+            ).addTo(map_397200932ca40bcb3c454420101a1dd2);
+        
+    
+            var div_icon_334e206206b9621f206ed387cb246e5f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12; color:#d35400;\"\u003e\u003cb\u003eVAFB SLC-4E\u003c/b\u003e\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [20, 20]});
+            marker_da0e508da9ef960125f6a7ba7cc21975.setIcon(div_icon_334e206206b9621f206ed387cb246e5f);
+        
+</script>
+</html>
